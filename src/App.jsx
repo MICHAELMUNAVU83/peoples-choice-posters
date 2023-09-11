@@ -15,10 +15,6 @@ const App = () => {
   };
   return (
     <>
-      <p className="text-center cinzel text-xl p-4  font-bold my-4">
-        This is a website that generates a poster for a contestant in a
-        competition in under 3 seconds .
-      </p>
       <p className="h-[8px] my-2 w-[100%] bg-[#F5C877]"></p>
       <div className="flex  gap-4 md:flex-row flex-col justify-around  items-center ">
         <Form

@@ -73,9 +73,10 @@ function MyComponent({
             backgroundRepeat: "no-repeat",
           }}
           ref={componentRef}
+          className="w-[100%]"
         >
-          <div className="bg-black flex flex-col  justify-center text-white items-center">
-            <div className="flex justify-between w-[100%] p-2 gap-4 items-center">
+          <div className="bg-black flex flex-col   justify-center text-white items-center">
+            <div className="flex justify-between w-[100%] gap-4 items-center">
               <img src="/Confetti.png" className="w-[100px] h-[100px]" />
               <img
                 src="/logo.jpg"
@@ -92,15 +93,15 @@ function MyComponent({
             </h1>
 
             <div className="flex justify-between p-2 gap-4 items-center">
-              <div className="w-[300px] p-2 h-[250px] flex justify-center items-center transform -rotate-12  overflow-hidden rounded-full">
+              <div className="md:w-[300px] w-[200px] p-2 h-[250px] flex justify-center items-center transform -rotate-12  overflow-hidden rounded-full">
                 <img
                   src={image}
                   alt="img"
-                  className="w-[90%] object-cover h-[90%]"
+                  className="w-[90%] object-fill h-[90%]"
                 />
               </div>
 
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col md:text-base text-xs gap-1">
                 <p>1 .Visit www.peopleschoiceawards.africa</p>
                 <p>2 .Click on the "VOTE" button</p>
                 <p>3 .Select Category</p>
@@ -129,7 +130,7 @@ function MyComponent({
             <p className="text-center uppercase ">{category}</p>
 
             <div
-              className="w-[70%] h-[50px] flex justify-center items-center gap-2  "
+              className="md:w-[70%] w-[90%] h-[50px] flex justify-center items-center gap-2  "
               style={{
                 backgroundImage: `url(${"/banner.png"})`,
                 backgroundSize: "cover",
@@ -142,13 +143,6 @@ function MyComponent({
               <span className="text-[#DFBC5D]">TAMASHA KE</span>
             </div>
 
-            <div className="flex  items-center gap-2">
-              <GrStar className="text-[#DFBC5D] text-2xl" />
-              <p className="h-[1px] w-[100px] bg-white"></p>
-              <GrStar className="text-[#DFBC5D] text-2xl" />
-              <p className="h-[1px] w-[100px] bg-white"></p>
-              <GrStar className="text-[#DFBC5D] text-2xl" />
-            </div>
             <img
               src="/Soxials_.png"
               alt="img"
