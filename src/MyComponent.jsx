@@ -92,8 +92,8 @@ function MyComponent({
               <p>AWARDS</p> 2023
             </h1>
 
-            <div className="flex justify-between w-[100%] p-2 gap-4 items-center">
-              <div className="w-[250px]  p-2 h-[250px] flex justify-center items-center transform -rotate-12  overflow-hidden rounded-full">
+            <div className="flex justify-between w-[90%] p-2 gap-4 items-center">
+              <div className="w-[300px]  p-2 h-[300px] flex justify-center items-center transform  overflow-hidden rounded-full">
                 <img
                   src={image}
                   alt="img"
