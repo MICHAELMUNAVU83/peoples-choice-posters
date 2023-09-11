@@ -15,7 +15,6 @@ const App = () => {
   };
   return (
     <>
-      <p className="h-[8px] my-2 w-[100%] bg-[#F5C877]"></p>
       <div className="flex  gap-4 md:flex-row flex-col justify-around  items-center ">
         <Form
           handleImageChange={handleImageChange}
