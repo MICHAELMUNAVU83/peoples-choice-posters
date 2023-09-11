@@ -75,7 +75,17 @@ function MyComponent({
           ref={componentRef}
         >
           <div className="bg-black flex flex-col  justify-center text-white items-center">
-            <img src="/logo.jpg" className="w-[80px] h-[80px] object-contain" />
+            <div className="flex justify-between w-[100%] p-2 gap-4 items-center">
+              <img src="/Confetti.png" className="w-[100px] h-[100px]" />
+              <img
+                src="/logo.jpg"
+                className="w-[80px] h-[80px] object-contain"
+              />
+              <img
+                src="/2ndedition.png"
+                className="w-[100px] h-[100px] object-contain"
+              />
+            </div>
             <h1 className="md:text-2xl text-[#DFBC5D]  flex flex-col justify-center items-center text-center text-xl my-1 font-bold cinzel">
               <p>PEOPLE'S CHOICE</p>
               <p>AWARDS</p> 2023
