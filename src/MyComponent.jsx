@@ -39,7 +39,7 @@ function MyComponent({
   return (
     <>
       {/* <img src="/Border_.png" alt="img" /> */}
-      <div className="md:w-[50%] w-[99%] mx-auto md:mx-0 bold  bg-black    ">
+      <div className="  mx-auto md:mx-0 bold  bg-black    ">
         {name && category && image && code && (
           <div className="flex justify-center items-center trasition duration-500 ease-in-out transform  hover:scale-105">
             <button
@@ -73,9 +73,9 @@ function MyComponent({
             backgroundRepeat: "no-repeat",
           }}
           ref={componentRef}
-          className="w-[100%]"
+          className="h-[700px] w-[700px]"
         >
-          <div className="bg-black flex flex-col   justify-center text-white items-center">
+          <div className="bg-black flex flex-col    justify-center text-white items-center">
             <div className="flex justify-between w-[100%] gap-4 items-center">
               <img src="/Confetti.png" className="w-[100px] h-[100px]" />
               <img
@@ -92,8 +92,8 @@ function MyComponent({
               <p>AWARDS</p> 2023
             </h1>
 
-            <div className="flex justify-between p-2 gap-4 items-center">
-              <div className="md:w-[300px] w-[200px] p-2 h-[250px] flex justify-center items-center transform -rotate-12  overflow-hidden rounded-full">
+            <div className="flex justify-between w-[100%] p-2 gap-4 items-center">
+              <div className="w-[250px]  p-2 h-[250px] flex justify-center items-center transform -rotate-12  overflow-hidden rounded-full">
                 <img
                   src={image}
                   alt="img"
@@ -101,7 +101,7 @@ function MyComponent({
                 />
               </div>
 
-              <div className="flex flex-col md:text-base text-xs gap-1">
+              <div className="flex flex-col  text-sm gap-1">
                 <p>1 .Visit www.peopleschoiceawards.africa</p>
                 <p>2 .Click on the "VOTE" button</p>
                 <p>3 .Select Category</p>
